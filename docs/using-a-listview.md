@@ -30,6 +30,7 @@ export default FlatListBasics = () => {
             {key: 'Jillian'},
             {key: 'Jimmy'},
             {key: 'Julie'},
+            {key: 'Tarani'},
           ]}
           renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
         />
